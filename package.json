@@ -18,7 +18,7 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "predeploy": "npm run build",
-    "deploy": "gf-pages -d build",
+    "deploy": "gh-pages -d build",
     "eject": "react-scripts eject"
   },
   "eslintConfig": {
@@ -40,6 +40,6 @@
     ]
   },
   "devDependencies": {
-    "gf-pages": "^6.3.0"
+    "gh-pages": "^6.3.0"
   }
 }
